@@ -1,0 +1,17 @@
+/* Theme Name: My Custom Theme
+   Author: <author-name>
+   Author URI: <author-website-url>
+   Description: Custom WordPress theme */
+
+.hero {
+	background-size: cover;
+	height: 200px;
+}
+
+#reviews-btn {
+	margin-bottom: 32px;
+}
+
+.highlight {
+	color: purple;
+}
