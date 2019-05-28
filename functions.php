@@ -1,4 +1,6 @@
 <?php
+  add_theme_support('post-thumbnails');
+
   function enqueueMyScripts(){
     wp_enqueue_style(
       'materializeCss',
