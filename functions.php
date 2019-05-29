@@ -1,6 +1,4 @@
 <?php
-  add_theme_support('post-thumbnails');
-
   function enqueueMyScripts(){
     wp_enqueue_style(
       'materializeCss',
@@ -30,6 +28,8 @@
     'wp_enqueue_scripts',
     'enqueueMyScripts'
   );
+
+  add_theme_support('post-thumbnails');
 
   function get_posts_by_category() {
     $posts = get_posts(
